@@ -28,6 +28,9 @@ export default function SignIn() {
     await new Promise((resolve) => setTimeout(resolve, 2000));
     console.log(values);
   };
+  function handlerSubmit<SignInFormData>(data: SignInFormData) {
+    console.log(data);
+  }
   return (
     <Flex w="100%" h="90vh" align="center" justify="center">
       <Flex
@@ -38,7 +41,7 @@ export default function SignIn() {
         p="8"
         borderRadius={8}
         flexDir="column"
-        onSubmit={handleSubmit(handleSignIn)}
+        onSubmit={handlerSubmit}
       >
         <Stack spacing={4}>
           <Input
