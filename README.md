@@ -1,4 +1,4 @@
-<h1>dashgo</h1>
+<h1>dashgo 📈</h1>
 
 Login - https://dashgo-delta-neon.vercel.app/
 <img src="/public/Screenshot_1.png"/>
